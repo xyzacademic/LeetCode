@@ -18,6 +18,17 @@ Guide
     1.7 [Radix Sort](Sort/radix_sort.py)
     
 2. Binary Tree
+   
+   2.1 [Preorder Traversal](BinaryTree/preorder_traversal.py)
+   2.2 [Inorder Traversal](BinaryTree/inorder_traversal.py)
+   2.3 [Postorder Traversal](BinaryTree/postorder_traversal.py)
+   2.4 [Level Traversal](BinaryTree/level_traversal.py)
+   2.5 [Get Max Width](BinaryTree/get_max_width.py)
+   2.6 [Get Depth](BinaryTree/get_depth.py)
+   2.7 [Preorder Serialize]
+   2.8 [Inorder Serialize]
+   2.9 [Postorder Serialize]
+   2.10 [Balanced Tree]
 
 3. Graph
 
