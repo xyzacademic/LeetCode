@@ -1,4 +1,4 @@
-from basic.collection.queue import Queue
+from basic.collection.queue_ import Queue
 from basic.collection.tree import Node
 
 

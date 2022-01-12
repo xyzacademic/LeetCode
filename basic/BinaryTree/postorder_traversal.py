@@ -57,6 +57,28 @@ def postorder_stack(head, results):
     return
 
 
+def func(root):
+    if not root:
+        return None
+
+    results = []
+    stack = []
+    stack.append(root)
+    head = root
+
+    while stack:
+        c = stack[-1]
+        if c.left and c.left != head and c.right != head:
+            stack.append(c.left)
+
+        elif c.right and c.right != head:
+            stack.append(c.right)
+
+        else:
+            c = stack.pop()
+            results.append(c.val)
+            head = c
+
 if __name__ == '__main__':
     """
             0

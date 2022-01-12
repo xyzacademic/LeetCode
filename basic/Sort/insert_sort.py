@@ -32,3 +32,4 @@ if __name__ == '__main__':
     insert_sort(test_case)
 
     print(test_case)
+

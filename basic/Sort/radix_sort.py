@@ -33,10 +33,12 @@ def radix_sort(arr):
 
 
 if __name__ == '__main__':
-    test_case = [3, 15, 2, 0, 5]
+    test_case = [3, 15, 2, 0, 5, 256]
 
     print(test_case)
 
     radix_sort(test_case)
 
     print(test_case)
+
+    a = dict()

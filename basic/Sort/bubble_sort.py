@@ -14,14 +14,15 @@ def bubble_sort(arr):
     if len(arr) == 0:
         return
 
-    count_swap = 0
+
     for last_idx in range(len(arr)-1, 0, -1):
+        swap = False
         for i in range(last_idx):
             if arr[i] > arr[i+1]:
                 arr[i], arr[i+1] = arr[i+1], arr[i]
-                count_swap += 1
+                swap = True
 
-        if not count_swap:
+        if not swap:
             break
 
 

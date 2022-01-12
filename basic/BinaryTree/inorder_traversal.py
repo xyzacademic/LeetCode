@@ -30,14 +30,15 @@ def inorder_stack(head, results):
             temp_stack.push(node.left)
             node = node.left
 
-        node = temp_stack.pop()
-        results.append(node.val)
+        cur = temp_stack.pop()
+        results.append(cur.val)
 
-        if node.right is not None:
-            temp_stack.push(node.right)
-            node = node.right
+        if cur.right is not None:
+            temp_stack.push(cur.right)
+            node = cur.right
 
     return
+
 
 
 if __name__ == '__main__':
